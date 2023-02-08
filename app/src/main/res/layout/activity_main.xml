@@ -168,6 +168,35 @@
                         android:switchMinWidth="50dp"/>
                 </RelativeLayout>
 
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/icon_logout"
+                        android:id="@+id/nightModeIcon4"
+                        android:padding="12dp"/>
+
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Night-Mode"
+                        android:textStyle="bold"
+                        android:layout_toEndOf="@+id/nightModeIcon4"/>
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:switchMinWidth="50dp"/>
+                </RelativeLayout>
+
+
             </LinearLayout>
 
         </LinearLayout>
